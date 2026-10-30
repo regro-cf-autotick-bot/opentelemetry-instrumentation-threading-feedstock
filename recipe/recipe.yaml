@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-threading
-  version: "0.66b1"
+  version: "0.66b2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_threading-${{ version }}.tar.gz
-  sha256: 2c217359439d09ca4a4be524db368c05a3cc7f218b85e8086f22664db0a03538
+  sha256: 512e0d4b568eff36ca15a977b507ddc1e64a38f93dbcafa4e701b3555b066991
 
 build:
   number: 0
